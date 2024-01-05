@@ -1,3 +1,46 @@
+<h1 align="center">Project Overview</h1>
+
+![Project Overview](https://github.com/shubnimkar/Netflix-clone/blob/master/Project%20Overviewt.png)
+
+
+<h1 align="center"> Objective </h1>
+
+As we set out to deploy our Netflix clone, simplicity meets effectiveness in our tool choices. Jenkins will handle our deployment pipeline, Kubernetes ensures smooth application deployment, and for monitoring Jenkins, we’ve got Grafana, Prometheus, and Node Exporter. Adding an extra layer of security, we’re embracing DevSecOps tools.
+
+
+
+<h1 align="center"> Technology Stack Used in deployment </h1>
+
+* Version Control
+  - Github
+    
+* Monitoring
+  - Prometheus
+  - Grafana
+  
+* Code Analysis
+  - Sonarqube
+
+* Deployment
+  - Docker
+  - Kubernetes
+
+* Security
+  - Trivy Scan
+  - OWASP Dependency Scan
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
@@ -6,29 +49,9 @@
   <h3 align="center">Netflix Clone</h3>
 
   <p align="center">
-    <a href="https://netflix-clone-react-typescript.vercel.app/">View Demo</a>
-    ·
-    <a href="https://github.com/crazy-man22/netflix-clone-react-typescript/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/crazy-man22/netflix-clone-react-typescript/issues">Request Feature</a>
+    <a href="https://netflix-clone-react-typescript.vercel.app/">View Application Demo</a>
   </p>
 </div>
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#prerequests">Prerequests</a>
-    </li>
-    <li>
-      <a href="#which-features-this-project-deals-with">Which features this project deals with</a>
-    </li>
-    <li><a href="#third-party-libraries-used-except-for-react-and-rtk">Third Party libraries used except for React and RTK</a></li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-  </ol>
-</details>
 
 <br />
 
