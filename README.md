@@ -30,6 +30,45 @@ As we set out to deploy our Netflix clone, simplicity meets effectiveness in our
   - OWASP Dependency Scan
 
 
+<h1 align="center"> Steps Involving  </h1>
+
+
+Step 1 — Launch an Ubuntu t2.large Instance 
+
+Step 2 — Install Jenkins, Docker and Trivy. Create a Sonarqube Container using Docker. 
+
+Step 3 — Create a TMDB API Key. 
+
+Step 4 — Install Prometheus and Grafana On new Server. 
+
+Step 5 — Install the Prometheus Plugin and Integrate it with the Prometheus server. 
+
+Step 6 — Email Integration With Jenkins and Plugin setup. 
+
+Step 7 — Install Plugins like JDK, Sonarqube Scanner, Nodejs, and OWASP Dependency Check. 
+
+Step 8 — Create a Pipeline Project in Jenkins 
+
+Step 9 — Install OWASP Dependency Check Plugins 
+
+Step 10 — Docker Image Build and Push 
+
+Step 11 — Deploy the image using Docker
+
+Step 12 — Kubernetes master and slave setup on Ubuntu.
+
+Step 13 — Access the Netflix app on the Browser. 
+
+Step 14 — Terminate the AWS EC2 Instances.
+
+
+<h1 align="center"> Prerequisites   </h1>
+
+- Create an account if you don't have on [TMDB](https://www.themoviedb.org/).
+  Because I use its free API to consume movie/tv data.
+- And then follow the [documentation](https://developers.themoviedb.org/3/getting-started/introduction) to create API Key
+- Finally, if you use v3 of TMDB API, create a file named `.env`, and copy and paste the content of `.env.example`.
+  And then paste the API Key you just created.
 
 
 
@@ -38,6 +77,7 @@ As we set out to deploy our Netflix clone, simplicity meets effectiveness in our
 
 
 
+<h1 align="center"> The Application </h1>
 
 
 
@@ -46,7 +86,7 @@ As we set out to deploy our Netflix clone, simplicity meets effectiveness in our
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
   </a>
 
-  <h3 align="center">Netflix Clone</h3>
+
 
   <p align="center">
     <a href="https://netflix-clone-react-typescript.vercel.app/">View Application Demo</a>
@@ -65,16 +105,7 @@ As we set out to deploy our Netflix clone, simplicity meets effectiveness in our
   <img src="./public/assets/grid-genre.png" alt="Logo" width="100%" height="100%">
   <p align="center">Grid Genre Page</p>
   <img src="./public/assets/watch.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Watch Page with customer contol bar</p>
-</div>
-
-## Prerequisites 
-
-- Create an account if you don't have on [TMDB](https://www.themoviedb.org/).
-  Because I use its free API to consume movie/tv data.
-- And then follow the [documentation](https://developers.themoviedb.org/3/getting-started/introduction) to create API Key
-- Finally, if you use v3 of TMDB API, create a file named `.env`, and copy and paste the content of `.env.example`.
-  And then paste the API Key you just created.
+  
 
 
 
