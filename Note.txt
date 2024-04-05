@@ -1,0 +1,4 @@
+
+1. Add the sonarqube url on jenkins server in node section 
+2 add the sonarkibe enviroment path in pipeline >> Sonarqube Analysis stage
+3.add sonarqube token and docker hub creadentials in jenkins server and jenkins pipeline...
